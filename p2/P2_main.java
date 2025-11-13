@@ -7,14 +7,14 @@ public class P2_main {
         int intResult;
         double doubleResult;
 
-        // Aufgabe d, e, f prüfen
-        doubleResult = (double)c / b;           // d korrigiert
+    
+        doubleResult = (double)c / b;           
         System.out.println("d) " + doubleResult);
 
-        doubleResult = c + (double)a / b;      // e korrigiert
+        doubleResult = c + (double)a / b;      
         System.out.println("e) " + doubleResult);
 
-        doubleResult = x + y * b;              // f unverändert
+        doubleResult = x + y * b;              
         System.out.println("f) " + doubleResult);
     }
 }
